@@ -102,3 +102,8 @@ canvas {
     max-width: 100%;
     height: auto;
 }
+
+footer{
+    bottom: 0;
+    position: relative;
+}
