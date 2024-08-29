@@ -1,0 +1,104 @@
+/* Estilos generales del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Estilos de las tarjetas de Pokémon */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px; /* Redondeo de bordes */
+    color: #ffffff;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    width: 350px; /* Ancho fijo de la tarjeta */
+    height: 400px; /* Altura fija de la tarjeta */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    object-fit: contain;
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    height: 200px; /* Altura fija para la imagen */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 20px; /* Tamaño del texto del título */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px; /* Tamaño del texto del cuerpo */
+    margin-bottom: 10px;
+}
+
+.card-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Botones */
+.btn {
+    margin-right: 10px;
+    font-size: 16px; /* Tamaño del texto en los botones */
+    padding: 10px 15px; /* Espaciado interno de los botones */
+    border-radius: 4px; /* Bordes redondeados en los botones */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff; /* Color del texto en el botón primario */
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #ffffff; /* Color del texto en el botón secundario */
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff; /* Color del texto en el botón de peligro */
+}
+
+/* Estilos del modal */
+.modal-content {
+    border-radius: 8px; /* Redondeo de bordes del modal */
+}
+
+.modal-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-close {
+    cursor: pointer;
+}
+
+/* Ajustes específicos para el gráfico */
+canvas {
+    max-width: 100%;
+    height: auto;
+}
